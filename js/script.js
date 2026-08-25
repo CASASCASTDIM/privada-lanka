@@ -29,10 +29,9 @@ function trackWhatsAppClick(modelo) {
 }
 
 // Prototipos
-const WHATSAPP_NUMBER = '524444116075';
+const WHATSAPP_NUMBER = '5214441308013';
 function waLink(modelo) {
-  const text = 'Vengo de casaslanka.mx y me interesa más información del modelo ' + modelo + '.';
-  return 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(text);
+  const text = 'Hola vengo de casaslanka.mx y me gustaría obtener información del modelo ' + modelo + '.';  return 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(text);
 }
 
 const MODELOS = [
